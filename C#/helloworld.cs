@@ -1,9 +1,8 @@
-using System;
-
-class Program
+// Archivo helloworld.cs
+public partial class Program
 {
     static void Main()
     {
-        Console.WriteLine(" Hello, World! C#");
+        Console.WriteLine("Hello, world!");
     }
 }

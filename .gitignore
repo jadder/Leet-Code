@@ -1,4 +1,11 @@
 
 *.exe
 *.class
-.vscode/tasks.json
+*.csproj
+*.json
+*.dll
+*.pdb
+
+obj/Debug/*
+obj/*
+Program.cs
