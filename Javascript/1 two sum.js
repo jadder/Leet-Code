@@ -3,7 +3,7 @@ Solution:
   Given that there always exists a pair a + b = target, regardless of whether 
   the target number is negative or positive, the solution remains the same.
   
-  Steps to find the pair [X, Y] where X + Y = target:
+  Steps to find the pair [X, Y] where X + Y = target: 
   
   1. Take a number X from the array and subtract it from the target to find the 
      second number Y needed.
