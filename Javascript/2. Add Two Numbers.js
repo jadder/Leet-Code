@@ -16,7 +16,7 @@ var addTwoNumbers = function (l1, l2) {
   let llevo = 0;
 
   while (l1 !== null || l2 !== null || llevo !== 0) {
-    //mientras existan valores para agregar se estare ejecuanto
+    //while I have values, I have to continue adding
     let a = 0,
       b = 0,
       sum = 0; //a number1, b number2
@@ -36,7 +36,7 @@ var addTwoNumbers = function (l1, l2) {
     sum = a + b + llevo;
 
     if (sum < 10) {
-      //this logic can be compatec too but I decide to do it this way to see each step.
+      //This logic can be simplified, but I decided to do it this way to see each step.
       llevo = 0;
       nodo.next = new ListNode(sum);
     } else {
