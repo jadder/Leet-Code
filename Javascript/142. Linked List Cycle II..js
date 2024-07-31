@@ -14,7 +14,6 @@
 var detectCycle = function (head) {
   let slow = head;
   let fast = head;
-  let result = null;
 
   let flag = false;
   while (fast !== null && fast.next !== null) {
